@@ -13,6 +13,9 @@
     There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 #### RandomOverSampler Resampling Model WITH Logistic Regression Classifier:
+- Balanced Accuracy Score:
+- Precision Score:
+- Recall Score:
 ![image](https://user-images.githubusercontent.com/114360511/218954527-4f9b79e1-0ebc-4c1e-84f6-8d9175782a7f.png)
 
 #### SMOTE Resampling Model WITH Logistic Regression Classifier:
