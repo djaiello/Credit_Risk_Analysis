@@ -49,8 +49,18 @@
 
 
 ## Summary: 
+In summary, the overall accuracy scores for using the Logistic Regression classifier with resampling of the classes produced only moderate scores(55%- 67%), while the use of the two new ensemble machine learning models resulted in better scores(79% and 93%).  Thus showing that our attempts to rebalance the classes resulted in only modest accuracy scores.
 
-    Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+For precision scores, all methods (both resampling and new models) showed the same results. As far as predicting high credit risk, all models showed no precision (0.1 - 0.09), meaning far too many false positive (type I error) results.  On the flip side, when predicting for low credit risk and models were perfect, meaning very few false negatives.  So if being right when predicting low risk is important and predicting correctly for high risk doesnt matter, these models are good, but otherwise they fail.
 
-- There is a summary of the results (2 pt)
-- There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+For recall scores, most high credit risk and low credit risk scores fell between 0.57 and 0.77, with a few notable exceptions.  On the low end the Cluster Centroids Resampling method had a low score of 0.40 for low credit risk and the Balanced Random Forest model had a relatively high score of 0.87 for low credit risk.  The one standout overall for recall was the Easy Ensemble Classifier model with 0.92 for high credit risk and 0.94 for low credit risk.
+
+For recommendations, if accurate predictions of high risk credit with little room for type I errors (false positives) is important, I can't recommend any of these models as they all show no precision.  If accurate predictions of high risk credit with a little room for type II errors (false negatives) is important, then we would recommend using the Easy Ensemble Classifier model without resampling, as it scored an impressive 0.92 recall with an overall accuracy score of 93%.
+If accurate predictions of low risk credit with little room for type I errors (false positives) is important, all models succeeded with precison scores of 1.0, but again I would recommend the Easy Ensemble Classifier model without resampling, as it also provided very high recall scores.  Finally, if accurate predictions of low risk credit with a little room for type II errors (false negatives) is important, then we would recommend using the Easy Ensemble Classifier model without resampling, as it scored an impressive 0.94 recall, as well as high scores(0.92) on low credit risk precision.
+
+
+
+
+
+
+
