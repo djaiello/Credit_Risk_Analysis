@@ -5,50 +5,45 @@
 
 
 ## Results:
-
-    Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-    There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-
 #### RandomOverSampler Resampling Model WITH Logistic Regression Classifier:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+- Balanced Accuracy Score: 0.661 = ~66% accurate overall
+- Precision Score:  High Risk - 0.01,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.72,   Low Risk - 0.60
 
 ![image](https://user-images.githubusercontent.com/114360511/218954527-4f9b79e1-0ebc-4c1e-84f6-8d9175782a7f.png)
 
 #### SMOTE Resampling Model WITH Logistic Regression Classifier:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+- Balanced Accuracy Score: 0.658 = ~66% accurate overall
+- Precision Score:  High Risk - 0.01,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.62,   Low Risk - 0.69
 
 ![image](https://user-images.githubusercontent.com/114360511/218954638-d4f03cc1-df46-4a62-a512-99b9690850d5.png)
 
 #### ClusterCentroids Resampling Model WITH Logistic Regression Classifier:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+- Balanced Accuracy Score: 0.545 = ~55% accurate overall
+- Precision Score:  High Risk - 0.01,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.69,   Low Risk - 0.40
 
 ![image](https://user-images.githubusercontent.com/114360511/218954325-805e791b-3df2-4594-aa8f-00a691a94faa.png)
 
-#### SMOTEENN Resampling ModelWITH Logistic Regression Classifier:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+#### SMOTEENN Resampling Model WITH Logistic Regression Classifier:
+- Balanced Accuracy Score: 0.671 = ~67% accurate overall
+- Precision Score:  High Risk - 0.01,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.77,   Low Risk - 0.57
 
 ![image](https://user-images.githubusercontent.com/114360511/218954592-f19c2304-02b9-4b85-8e9e-02b1582e3d28.png)
 
 #### BalancedRandomForestClassifier Machine Learning Model:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+- Balanced Accuracy Score: 0.789 = ~79% accurate overall
+- Precision Score:  High Risk - 0.03,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.70,   Low Risk - 0.87
 
 ![image](https://user-images.githubusercontent.com/114360511/218954294-0a43f395-d746-4015-8879-ebf503488829.png)
 
 #### EasyEnsembleClassifier Machine Learning Model:
-- Balanced Accuracy Score:
-- Precision Score:
-- Recall Score:
+- Balanced Accuracy Score: 0.932 = ~93% accurate overall
+- Precision Score:  High Risk - 0.09,  Low Risk - 1.00
+- Recall Score:  High Risk - 0.92,   Low Risk - 0.94
 
 ![image](https://user-images.githubusercontent.com/114360511/218954416-07cdd5e8-243a-46b2-a345-05ed95009149.png)
 
